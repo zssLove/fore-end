@@ -23,6 +23,10 @@ module.exports = {
           { text: 'Group2', items: [
             { text: 'Home', link: '/' },
             { text: 'Home', link: '/' },
+          ] },
+          { text: 'Group2', items: [
+            { text: 'Home', link: '/' },
+            { text: 'Home', link: '/' },
           ] }
         ]
       },
