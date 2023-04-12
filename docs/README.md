@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /assets/img/hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
+heroText: Fore End
+tagline: 前端面试题总结
 actionText: 快速上手 →
 actionLink: /zh/guide/
 features:

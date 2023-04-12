@@ -20,5 +20,8 @@
   "homepage": "https://github.com/zssLove/fore-end#readme",
   "devDependencies": {
     "vuepress": "^1.9.9"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }
