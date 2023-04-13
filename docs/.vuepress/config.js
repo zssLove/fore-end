@@ -4,12 +4,13 @@
  * @Author: zss
  * @Date: 2023-04-11 09:53:44
  * @LastEditors: zss
- * @LastEditTime: 2023-04-12 23:09:51
+ * @LastEditTime: 2023-04-13 23:16:01
  */
 
 const moment = require('moment');
 
 module.exports = {
+  // base: "/fore-end/",
   title: '每日笔记',
   description: '前端每日面试题',
   head: [
@@ -23,8 +24,9 @@ module.exports = {
       {
         transformer: (timestamp, lang) => {
           // 不要忘了安装 moment
-          moment.locale(lang)
-          return moment(timestamp).fromNow("llll"); // http://momentjs.cn/
+          // moment.locale(lang)
+          moment.locale("zh-cn")
+          return moment(timestamp).fromNow("LLLL"); // http://momentjs.cn/
         }
       }
     ]

@@ -4,8 +4,9 @@
   "description": "前端面试题集合",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
