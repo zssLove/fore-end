@@ -1,17 +1,19 @@
 const moment = require('moment');
 
+const secret = require('./secret');
+
 moment.locale("zg-cn")
 
 module.exports = {
   '@vssue/vuepress-plugin-vssue': {
     // 设置 `platform` 而不是 `api`
     platform: 'github-v4',
-
+    clientId: secret.clientId,
+    clientSecret: secret.clientSecret,
     // 其他的 Vssue 配置
     owner: 'zssLove',
     repo: 'fore-end',
-    clientId: '7596633d235dd8fa1d35',
-    clientSecret: '7ebfc193f65a8ea7da1bcbc8b0fdf66db1da69ab',
+
     autoCreateIssue: true
   },
   '@vuepress/last-updated': {
@@ -31,6 +33,6 @@ module.exports = {
   },
   '@vuepress/back-to-top': true,
   '@vuepress/google-analytics': {
-    'ga': 'G-XKBN1QST3N' // UA-00000000-0
+    'ga': secret.ga
   }
 }
