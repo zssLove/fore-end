@@ -3,9 +3,11 @@
  */
 export default {
   "v-2acb9eef": () => import("E:\\github\\fore-end\\docs\\README.md"),
+  "v-74d77920": () => import("E:\\github\\fore-end\\docs\\about1.md"),
   "v-a8ed3d18": () => import("E:\\github\\fore-end\\docs\\css\\README.md"),
-  "v-c836ff42": () => import("E:\\github\\fore-end\\docs\\css\\a-css.md"),
-  "v-18da951f": () => import("E:\\github\\fore-end\\docs\\css\\c-css.md"),
   "v-4b40ea82": () => import("E:\\github\\fore-end\\docs\\css\\b-css.md"),
-  "v-b9ba5728": () => import("E:\\github\\fore-end\\docs\\about.md") 
+  "v-c836ff42": () => import("E:\\github\\fore-end\\docs\\css\\a-css.md"),
+  "v-b9ba5728": () => import("E:\\github\\fore-end\\docs\\about.md"),
+  "v-18da951f": () => import("E:\\github\\fore-end\\docs\\css\\c-css.md"),
+  "v-98cb1f28": () => import("E:\\github\\fore-end\\docs\\quanxue.md") 
 }

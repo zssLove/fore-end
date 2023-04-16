@@ -26,6 +26,34 @@ export const siteData = {
         "name": "Keywords",
         "content": "前端面试题介绍"
       }
+    ],
+    [
+      "link",
+      {
+        "rel": "apple-touch-icon",
+        "href": "/apple-touch-icon.png"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "manifest",
+        "href": "/manifest.json"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "stylesheet",
+        "href": "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "theme-color",
+        "content": "#ffffff"
+      }
     ]
   ],
   "pages": [
@@ -58,8 +86,36 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-2acb9eef",
       "path": "/",
-      "lastUpdated": "1 天",
+      "lastUpdated": "4 天",
       "lastUpdatedTimestamp": 1681312264000
+    },
+    {
+      "title": "css11111",
+      "frontmatter": {
+        "navbar": true,
+        "title": "css11111"
+      },
+      "regularPath": "/about1.html",
+      "relativePath": "about1.md",
+      "key": "v-74d77920",
+      "path": "/about1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我1",
+          "slug": "关于我1"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题"
+        },
+        {
+          "level": 3,
+          "title": "二级标题",
+          "slug": "二级标题"
+        }
+      ]
     },
     {
       "title": "css主页",
@@ -75,27 +131,7 @@ export const siteData = {
           "slug": "css主页"
         }
       ],
-      "lastUpdated": "1 天",
-      "lastUpdatedTimestamp": 1681312264000
-    },
-    {
-      "title": "aa",
-      "frontmatter": {},
-      "regularPath": "/css/a-css.html",
-      "relativePath": "css/a-css.md",
-      "key": "v-c836ff42",
-      "path": "/css/a-css.html",
-      "lastUpdated": "1 天",
-      "lastUpdatedTimestamp": 1681312264000
-    },
-    {
-      "title": "cc",
-      "frontmatter": {},
-      "regularPath": "/css/c-css.html",
-      "relativePath": "css/c-css.md",
-      "key": "v-18da951f",
-      "path": "/css/c-css.html",
-      "lastUpdated": "1 天",
+      "lastUpdated": "4 天",
       "lastUpdatedTimestamp": 1681312264000
     },
     {
@@ -105,21 +141,30 @@ export const siteData = {
       "relativePath": "css/b-css.md",
       "key": "v-4b40ea82",
       "path": "/css/b-css.html",
-      "lastUpdated": "1 天",
+      "lastUpdated": "4 天",
       "lastUpdatedTimestamp": 1681312264000
     },
     {
+      "title": "aa",
       "frontmatter": {},
+      "regularPath": "/css/a-css.html",
+      "relativePath": "css/a-css.md",
+      "key": "v-c836ff42",
+      "path": "/css/a-css.html",
+      "lastUpdated": "4 天",
+      "lastUpdatedTimestamp": 1681312264000
+    },
+    {
+      "title": "css",
+      "frontmatter": {
+        "navbar": true,
+        "title": "css"
+      },
       "regularPath": "/about.html",
       "relativePath": "about.md",
       "key": "v-b9ba5728",
       "path": "/about.html",
       "headers": [
-        {
-          "level": 2,
-          "title": "navbar: true\ntitle: css",
-          "slug": "navbar-truetitle-css"
-        },
         {
           "level": 2,
           "title": "关于我1",
@@ -136,8 +181,28 @@ export const siteData = {
           "slug": "二级标题"
         }
       ],
-      "lastUpdated": "1 天",
+      "lastUpdated": "3 天",
+      "lastUpdatedTimestamp": 1681399261000
+    },
+    {
+      "title": "cc",
+      "frontmatter": {},
+      "regularPath": "/css/c-css.html",
+      "relativePath": "css/c-css.md",
+      "key": "v-18da951f",
+      "path": "/css/c-css.html",
+      "lastUpdated": "4 天",
       "lastUpdatedTimestamp": 1681312264000
+    },
+    {
+      "title": "劝学",
+      "frontmatter": {
+        "title": "劝学"
+      },
+      "regularPath": "/quanxue.html",
+      "relativePath": "quanxue.md",
+      "key": "v-98cb1f28",
+      "path": "/quanxue.html"
     }
   ],
   "themeConfig": {

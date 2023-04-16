@@ -1,6 +1,6 @@
 ---
 navbar: true
-title: css
+title: css11111
 ---
 
 ## 关于我1
@@ -14,4 +14,4 @@ title: css
 
 11111
 
-<Vssue />
+<!-- <Vssue :options="{ locale: 'zh' }"/> -->
