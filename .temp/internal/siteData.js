@@ -84,8 +84,9 @@ export const siteData = {
           "slug": "二级标题"
         }
       ],
-      "lastUpdated": "3 小时",
-      "lastUpdatedTimestamp": 1681640960000
+      "lastUpdated": "1 天",
+      "lastUpdatedTimestamp": 1681640960000,
+      "createdTime": 1681640960000
     },
     {
       "title": "css",
@@ -114,8 +115,27 @@ export const siteData = {
           "slug": "二级标题"
         }
       ],
-      "lastUpdated": "3 小时",
-      "lastUpdatedTimestamp": 1681640960000
+      "lastUpdated": "1 天",
+      "lastUpdatedTimestamp": 1681654436000,
+      "createdTime": 1681312264000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog.html",
+      "relativePath": "blog.md",
+      "key": "v-591d2534",
+      "path": "/blog.html"
+    },
+    {
+      "title": "aa",
+      "frontmatter": {},
+      "regularPath": "/css/a-css.html",
+      "relativePath": "css/a-css.md",
+      "key": "v-c836ff42",
+      "path": "/css/a-css.html",
+      "lastUpdated": "5 天",
+      "lastUpdatedTimestamp": 1681312264000,
+      "createdTime": 1681312264000
     },
     {
       "title": "Home",
@@ -146,8 +166,57 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-2acb9eef",
       "path": "/",
-      "lastUpdated": "4 天",
-      "lastUpdatedTimestamp": 1681312264000
+      "lastUpdated": "5 天",
+      "lastUpdatedTimestamp": 1681312264000,
+      "createdTime": 1681225768000
+    },
+    {
+      "title": "cc",
+      "frontmatter": {},
+      "regularPath": "/css/c-css.html",
+      "relativePath": "css/c-css.md",
+      "key": "v-18da951f",
+      "path": "/css/c-css.html",
+      "lastUpdated": "5 天",
+      "lastUpdatedTimestamp": 1681312264000,
+      "createdTime": 1681312264000
+    },
+    {
+      "title": "CountUp 第三方组件",
+      "frontmatter": {
+        "title": "CountUp 第三方组件"
+      },
+      "regularPath": "/countup.html",
+      "relativePath": "countup.md",
+      "key": "v-5a42164c",
+      "path": "/countup.html",
+      "lastUpdated": "1 天",
+      "lastUpdatedTimestamp": 1681654356000,
+      "createdTime": 1681654356000
+    },
+    {
+      "title": "bb",
+      "frontmatter": {},
+      "regularPath": "/css/b-css.html",
+      "relativePath": "css/b-css.md",
+      "key": "v-4b40ea82",
+      "path": "/css/b-css.html",
+      "lastUpdated": "5 天",
+      "lastUpdatedTimestamp": 1681312264000,
+      "createdTime": 1681312264000
+    },
+    {
+      "title": "劝学",
+      "frontmatter": {
+        "title": "劝学"
+      },
+      "regularPath": "/quanxue.html",
+      "relativePath": "quanxue.md",
+      "key": "v-98cb1f28",
+      "path": "/quanxue.html",
+      "lastUpdated": "1 天",
+      "lastUpdatedTimestamp": 1681640960000,
+      "createdTime": 1681640960000
     },
     {
       "title": "css主页",
@@ -163,60 +232,9 @@ export const siteData = {
           "slug": "css主页"
         }
       ],
-      "lastUpdated": "4 天",
-      "lastUpdatedTimestamp": 1681312264000
-    },
-    {
-      "title": "aa",
-      "frontmatter": {},
-      "regularPath": "/css/a-css.html",
-      "relativePath": "css/a-css.md",
-      "key": "v-c836ff42",
-      "path": "/css/a-css.html",
-      "lastUpdated": "4 天",
-      "lastUpdatedTimestamp": 1681312264000
-    },
-    {
-      "title": "bb",
-      "frontmatter": {},
-      "regularPath": "/css/b-css.html",
-      "relativePath": "css/b-css.md",
-      "key": "v-4b40ea82",
-      "path": "/css/b-css.html",
-      "lastUpdated": "4 天",
-      "lastUpdatedTimestamp": 1681312264000
-    },
-    {
-      "title": "劝学",
-      "frontmatter": {
-        "title": "劝学"
-      },
-      "regularPath": "/quanxue.html",
-      "relativePath": "quanxue.md",
-      "key": "v-98cb1f28",
-      "path": "/quanxue.html",
-      "lastUpdated": "3 小时",
-      "lastUpdatedTimestamp": 1681640960000
-    },
-    {
-      "title": "cc",
-      "frontmatter": {},
-      "regularPath": "/css/c-css.html",
-      "relativePath": "css/c-css.md",
-      "key": "v-18da951f",
-      "path": "/css/c-css.html",
-      "lastUpdated": "4 天",
-      "lastUpdatedTimestamp": 1681312264000
-    },
-    {
-      "title": "CountUp 第三方组件",
-      "frontmatter": {
-        "title": "CountUp 第三方组件"
-      },
-      "regularPath": "/countup.html",
-      "relativePath": "countup.md",
-      "key": "v-5a42164c",
-      "path": "/countup.html"
+      "lastUpdated": "5 天",
+      "lastUpdatedTimestamp": 1681312264000,
+      "createdTime": 1681312264000
     }
   ],
   "themeConfig": {
@@ -280,20 +298,7 @@ export const siteData = {
         "link": "https://google.com"
       }
     ],
-    "sidebar": [
-      "/",
-      "/about",
-      {
-        "title": "css标题",
-        "path": "/css/",
-        "collapsable": false,
-        "sidebarDepth": 1,
-        "children": [
-          "/css/a-css",
-          "/css/b-css",
-          "/css/c-css"
-        ]
-      }
-    ]
+    "search": true,
+    "searchMaxSuggestions": 10
   }
 }
