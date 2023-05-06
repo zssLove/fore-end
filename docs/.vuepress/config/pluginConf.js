@@ -38,7 +38,9 @@ module.exports = {
   '@vuepress/medium-zoom': {
     selector: 'img',
   },
-  "vuepress-plugin-auto-sidebar": {
-    nav: true
+  "vuepress-plugin-auto-sidebar": {},
+  'vuepress-plugin-code-copy': {
+    successText: '已复制'
   }
+  
 }

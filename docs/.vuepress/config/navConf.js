@@ -1,22 +1,12 @@
 module.exports = [
-  { text: 'Home', link: '/' },
-  { text: 'Guide', link: '/about' },
+  { text: '前端面试全家桶', link: '../../interview/interview' },
+  { text: 'Typescript', link: '../../typescript/typescript.md' },
   {
-    text: 'Languages',
+    text: 'Vue源码分析',
     items: [
-      { text: 'Group1', items: [
-        { text: 'Home', link: '/' },
-        { text: 'Home', link: '/' },
-      ] },
-      { text: 'Group2', items: [
-        { text: 'Home', link: '/' },
-        { text: 'Home', link: '/' },
-      ] },
-      { text: 'Group2', items: [
-        { text: 'Home', link: '/' },
-        { text: 'Home', link: '/' },
-      ] }
+        { text: 'Vue2源码分析', link: '../../vue2/vue2.md' },
+        { text: 'Vue3源码分析', link: '../../vue3/vue3.md' },
     ]
   },
-  { text: 'External', link: 'https://google.com' },
+  { text: 'Github', link: 'https://github.com/zssLove/fore-end' },
 ]
