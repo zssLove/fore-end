@@ -1,5 +1,5 @@
 module.exports = [
-  { text: '前端面试全家桶', link: '../../interview/interview' },
+  { text: '前端面试集合', link: '../../interview/interview' },
   { text: 'Typescript', link: '../../typescript/typescript.md' },
   {
     text: 'Vue源码分析',

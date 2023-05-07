@@ -10,7 +10,7 @@ export const siteData = {
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "/study.ico"
       }
     ],
     [
@@ -58,205 +58,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/img/hero.png",
-        "heroText": "A Personal Blog",
-        "tagline": "周帅帅的个人博客",
-        "actionText": "开始 →",
-        "actionLink": "./interview/interview",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-2acb9eef",
-      "path": "/",
-      "lastUpdated": "10 小时",
-      "lastUpdatedTimestamp": 1683392497000,
-      "createdTime": 1681225768000
-    },
-    {
-      "title": "css主页",
-      "frontmatter": {},
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-a8ed3d18",
-      "path": "/css/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "css主页",
-          "slug": "css主页"
-        }
-      ],
-      "lastUpdated": "24 天",
-      "lastUpdatedTimestamp": 1681312264000,
-      "createdTime": 1681312264000
-    },
-    {
-      "title": "aa",
-      "frontmatter": {},
-      "regularPath": "/css/a-css.html",
-      "relativePath": "css/a-css.md",
-      "key": "v-c836ff42",
-      "path": "/css/a-css.html",
-      "lastUpdated": "24 天",
-      "lastUpdatedTimestamp": 1681312264000,
-      "createdTime": 1681312264000
-    },
-    {
-      "title": "bb",
-      "frontmatter": {},
-      "regularPath": "/css/b-css.html",
-      "relativePath": "css/b-css.md",
-      "key": "v-4b40ea82",
-      "path": "/css/b-css.html",
-      "lastUpdated": "24 天",
-      "lastUpdatedTimestamp": 1681312264000,
-      "createdTime": 1681312264000
-    },
-    {
-      "title": "Http",
-      "frontmatter": {
-        "navbar": true,
-        "sidebar": "auto",
-        "title": "Http"
-      },
-      "regularPath": "/http/http.html",
-      "relativePath": "http/http.md",
-      "key": "v-e7e86dce",
-      "path": "/http/http.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "http2",
-          "slug": "http2"
-        }
-      ],
-      "lastUpdated": "10 小时",
-      "lastUpdatedTimestamp": 1683392497000,
-      "createdTime": 1683392497000
-    },
-    {
-      "title": "CountUp 第三方组件",
-      "frontmatter": {
-        "title": "CountUp 第三方组件"
-      },
-      "regularPath": "/countup.html",
-      "relativePath": "countup.md",
-      "key": "v-5a42164c",
-      "path": "/countup.html",
-      "lastUpdated": "10 小时",
-      "lastUpdatedTimestamp": 1683392497000,
-      "createdTime": 1681654356000
-    },
-    {
-      "title": "前端面试之道",
-      "frontmatter": {
-        "navbar": true,
-        "sidebar": "auto",
-        "title": "前端面试之道"
-      },
-      "regularPath": "/interview/interview.html",
-      "relativePath": "interview/interview.md",
-      "key": "v-f7a14942",
-      "path": "/interview/interview.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前端1",
-          "slug": "前端1"
-        }
-      ],
-      "lastUpdated": "10 小时",
-      "lastUpdatedTimestamp": 1683392497000,
-      "createdTime": 1683392497000
-    },
-    {
-      "title": "javascript1",
-      "frontmatter": {
-        "navbar": true,
-        "sidebar": "auto",
-        "title": "javascript1"
-      },
-      "regularPath": "/javascript/javascript.html",
-      "relativePath": "javascript/javascript.md",
-      "key": "v-72e8fb59",
-      "path": "/javascript/javascript.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "javascript2",
-          "slug": "javascript2"
-        }
-      ],
-      "lastUpdated": "10 小时",
-      "lastUpdatedTimestamp": 1683392497000,
-      "createdTime": 1683392497000
-    },
-    {
-      "title": "cc",
-      "frontmatter": {},
-      "regularPath": "/css/c-css.html",
-      "relativePath": "css/c-css.md",
-      "key": "v-18da951f",
-      "path": "/css/c-css.html",
-      "lastUpdated": "24 天",
-      "lastUpdatedTimestamp": 1681312264000,
-      "createdTime": 1681312264000
-    },
-    {
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/typescript/typescript.html",
-      "relativePath": "typescript/typescript.md",
-      "key": "v-4614494e",
-      "path": "/typescript/typescript.html",
-      "lastUpdated": "10 小时",
-      "lastUpdatedTimestamp": 1683392497000,
-      "createdTime": 1683392497000
-    },
-    {
-      "title": "vue3",
-      "frontmatter": {
-        "sidebar": "auto",
-        "title": "vue3"
-      },
-      "regularPath": "/vue3/vue3.html",
-      "relativePath": "vue3/vue3.md",
-      "key": "v-15bbb519",
-      "path": "/vue3/vue3.html",
-      "lastUpdated": "10 小时",
-      "lastUpdatedTimestamp": 1683392497000,
-      "createdTime": 1683392497000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/vue2/vue2.html",
-      "relativePath": "vue2/vue2.md",
-      "key": "v-95138dce",
-      "path": "/vue2/vue2.html",
-      "lastUpdated": "10 小时",
-      "lastUpdatedTimestamp": 1683392497000,
-      "createdTime": 1683392497000
-    },
-    {
       "frontmatter": {},
       "regularPath": "/blog.html",
       "relativePath": "blog.md",
@@ -279,16 +80,222 @@ export const siteData = {
           "slug": "二级标题"
         }
       ],
-      "lastUpdated": "10 小时",
-      "lastUpdatedTimestamp": 1683392497000,
+      "lastUpdated": "12 小时",
+      "lastUpdatedTimestamp": 1683429218000,
       "createdTime": 1681743842000
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/assets/img/hero.png",
+        "heroText": "A Personal Blog",
+        "tagline": "周帅帅的个人博客",
+        "actionText": "开始 →",
+        "actionLink": "./interview/interview",
+        "features": [
+          {
+            "title": "初衷",
+            "details": "记录一路走来学习的前端面试知识，方便之后复习与查看。"
+          },
+          {
+            "title": "送自己的话",
+            "details": "一个人可以走的很快，一群人才能走的更远，种一棵树最好的时间是十年前，其次就是现在"
+          },
+          {
+            "title": "未来",
+            "details": "起于此，但不止于此"
+          }
+        ],
+        "footer": "Copyright © 2023 Zhou shuaishuai"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-2acb9eef",
+      "path": "/",
+      "lastUpdated": "12 小时",
+      "lastUpdatedTimestamp": 1683429598000,
+      "createdTime": 1681225768000
+    },
+    {
+      "title": "css主页",
+      "frontmatter": {},
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-a8ed3d18",
+      "path": "/css/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "css主页",
+          "slug": "css主页"
+        }
+      ],
+      "lastUpdated": "25 天",
+      "lastUpdatedTimestamp": 1681312264000,
+      "createdTime": 1681312264000
+    },
+    {
+      "title": "CountUp 第三方组件",
+      "frontmatter": {
+        "title": "CountUp 第三方组件"
+      },
+      "regularPath": "/countup.html",
+      "relativePath": "countup.md",
+      "key": "v-5a42164c",
+      "path": "/countup.html",
+      "lastUpdated": "12 小时",
+      "lastUpdatedTimestamp": 1683429218000,
+      "createdTime": 1681654356000
+    },
+    {
+      "title": "aa",
+      "frontmatter": {},
+      "regularPath": "/css/a-css.html",
+      "relativePath": "css/a-css.md",
+      "key": "v-c836ff42",
+      "path": "/css/a-css.html",
+      "lastUpdated": "25 天",
+      "lastUpdatedTimestamp": 1681312264000,
+      "createdTime": 1681312264000
+    },
+    {
+      "title": "javascript1",
+      "frontmatter": {
+        "navbar": true,
+        "sidebar": "auto",
+        "title": "javascript1"
+      },
+      "regularPath": "/javascript/javascript.html",
+      "relativePath": "javascript/javascript.md",
+      "key": "v-72e8fb59",
+      "path": "/javascript/javascript.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "javascript2",
+          "slug": "javascript2"
+        }
+      ],
+      "lastUpdated": "1 天",
+      "lastUpdatedTimestamp": 1683392497000,
+      "createdTime": 1683392497000
+    },
+    {
+      "title": "cc",
+      "frontmatter": {},
+      "regularPath": "/css/c-css.html",
+      "relativePath": "css/c-css.md",
+      "key": "v-18da951f",
+      "path": "/css/c-css.html",
+      "lastUpdated": "25 天",
+      "lastUpdatedTimestamp": 1681312264000,
+      "createdTime": 1681312264000
+    },
+    {
+      "title": "Http",
+      "frontmatter": {
+        "navbar": true,
+        "sidebar": "auto",
+        "title": "Http"
+      },
+      "regularPath": "/http/http.html",
+      "relativePath": "http/http.md",
+      "key": "v-e7e86dce",
+      "path": "/http/http.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "http2",
+          "slug": "http2"
+        }
+      ],
+      "lastUpdated": "1 天",
+      "lastUpdatedTimestamp": 1683392497000,
+      "createdTime": 1683392497000
+    },
+    {
+      "title": "vue3",
+      "frontmatter": {
+        "sidebar": "auto",
+        "title": "vue3"
+      },
+      "regularPath": "/vue2/vue2.html",
+      "relativePath": "vue2/vue2.md",
+      "key": "v-95138dce",
+      "path": "/vue2/vue2.html",
+      "lastUpdated": "12 小时",
+      "lastUpdatedTimestamp": 1683430609000,
+      "createdTime": 1683392497000
+    },
+    {
+      "title": "bb",
+      "frontmatter": {},
+      "regularPath": "/css/b-css.html",
+      "relativePath": "css/b-css.md",
+      "key": "v-4b40ea82",
+      "path": "/css/b-css.html",
+      "lastUpdated": "25 天",
+      "lastUpdatedTimestamp": 1681312264000,
+      "createdTime": 1681312264000
+    },
+    {
+      "title": "前端面试之道",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/interview/interview.html",
+      "relativePath": "interview/interview.md",
+      "key": "v-f7a14942",
+      "path": "/interview/interview.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "CSS 面试题",
+          "slug": "css-面试题"
+        },
+        {
+          "level": 3,
+          "title": "11111",
+          "slug": "_11111"
+        }
+      ],
+      "lastUpdated": "1 天",
+      "lastUpdatedTimestamp": 1683392497000,
+      "createdTime": 1683392497000
+    },
+    {
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/typescript/typescript.html",
+      "relativePath": "typescript/typescript.md",
+      "key": "v-4614494e",
+      "path": "/typescript/typescript.html",
+      "lastUpdated": "1 天",
+      "lastUpdatedTimestamp": 1683392497000,
+      "createdTime": 1683392497000
+    },
+    {
+      "title": "vue3",
+      "frontmatter": {
+        "sidebar": "auto",
+        "title": "vue3"
+      },
+      "regularPath": "/vue3/vue3.html",
+      "relativePath": "vue3/vue3.md",
+      "key": "v-15bbb519",
+      "path": "/vue3/vue3.html",
+      "lastUpdated": "1 天",
+      "lastUpdatedTimestamp": 1683392497000,
+      "createdTime": 1683392497000
     }
   ],
   "themeConfig": {
     "lastUpdated": "更新时间",
     "nav": [
       {
-        "text": "前端面试全家桶",
+        "text": "前端面试集合",
         "link": "../../interview/interview"
       },
       {

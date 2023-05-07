@@ -9,6 +9,14 @@ import GlobalLayout from "E:\\github\\fore-end\\node_modules\\@vuepress\\core\\l
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-591d2534",
+    path: "/blog.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-591d2534").then(next)
+    },
+  },
+  {
     name: "v-2acb9eef",
     path: "/",
     component: GlobalLayout,
@@ -33,30 +41,6 @@ export const routes = [
     redirect: "/css/"
   },
   {
-    name: "v-c836ff42",
-    path: "/css/a-css.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c836ff42").then(next)
-    },
-  },
-  {
-    name: "v-4b40ea82",
-    path: "/css/b-css.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4b40ea82").then(next)
-    },
-  },
-  {
-    name: "v-e7e86dce",
-    path: "/http/http.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e7e86dce").then(next)
-    },
-  },
-  {
     name: "v-5a42164c",
     path: "/countup.html",
     component: GlobalLayout,
@@ -65,11 +49,11 @@ export const routes = [
     },
   },
   {
-    name: "v-f7a14942",
-    path: "/interview/interview.html",
+    name: "v-c836ff42",
+    path: "/css/a-css.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f7a14942").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c836ff42").then(next)
     },
   },
   {
@@ -89,6 +73,38 @@ export const routes = [
     },
   },
   {
+    name: "v-e7e86dce",
+    path: "/http/http.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e7e86dce").then(next)
+    },
+  },
+  {
+    name: "v-95138dce",
+    path: "/vue2/vue2.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-95138dce").then(next)
+    },
+  },
+  {
+    name: "v-4b40ea82",
+    path: "/css/b-css.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4b40ea82").then(next)
+    },
+  },
+  {
+    name: "v-f7a14942",
+    path: "/interview/interview.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f7a14942").then(next)
+    },
+  },
+  {
     name: "v-4614494e",
     path: "/typescript/typescript.html",
     component: GlobalLayout,
@@ -102,22 +118,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-15bbb519").then(next)
-    },
-  },
-  {
-    name: "v-95138dce",
-    path: "/vue2/vue2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-95138dce").then(next)
-    },
-  },
-  {
-    name: "v-591d2534",
-    path: "/blog.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-591d2534").then(next)
     },
   },
   {
