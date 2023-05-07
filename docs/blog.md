@@ -3,7 +3,7 @@
 
 <!-- 指定代码显示数量动画显示 -->
 <CountUp :endVal="2020" />
-<<< @/docs/.vuepress/components/CountUp.vue
+<!-- <<< @/docs/.vuepress/components/CountUp.vue -->
 
 :::tip
 qqqqq
@@ -31,3 +31,5 @@ export default {
   }
 }
 ```
+
+    <!-- // "dev": "vuepress dev docs --temp .temp", -->
