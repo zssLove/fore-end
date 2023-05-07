@@ -2,8 +2,8 @@
 home: true
 heroImage: /assets/img/hero.png
 heroText: A Personal Blog
-tagline: 周帅帅的个人博客
-actionText: 开始 →
+tagline: 周帅帅的个人博客111
+actionText: 开始1111 →
 actionLink: ./interview/interview
 features:
 - title: 简洁至上
