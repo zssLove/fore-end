@@ -5,5 +5,6 @@ module.exports = [
   ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
   ['link', { rel: 'manifest', href: '/manifest.json' }],
   ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css'}],
+  ['link', { rel: 'stylesheet', href: '/css/index.css'}],
   ['meta', { name: 'theme-color', content: '#ffffff' }],
 ]
