@@ -40,7 +40,7 @@ module.exports = {
   },
   "vuepress-plugin-auto-sidebar": {},
   'vuepress-plugin-code-copy': {
-    successText: '已复制'
+    successText: '复制成功'
   }
   
 }
