@@ -31,13 +31,30 @@ sidebar: auto
 
 **标准盒模型**：属性`width`和`height`只包含`content`，不包括`border`和`padding`。
 
+`width` = `content`
+
+`height` = `content`
+
+![标准盒模型](../images/interview/1.png)
+
 **IE盒模型**：属性`width`和`height`除了包含`content`外，也包含`border`和`padding`。
+
+:::warning 注意
+IE盒模型宽度和高度要想和标准盒模型一样，可以通过`box-sizing: border-box`代码来实现
+:::
+
+`width` = `content` + `padding`(左右) + `border`(左右)（就是说width已经包含了padding和border值）
+
+`height` = `content` + `padding`(上下) + `border`(上下)（就是说width已经包含了padding和border值）
+
+![IE盒模型](../images/interview/2.png)
 
 
 ### margin纵向重叠的问题
 
-
-
+:::tip 问题
+* 1
+:::
 
 ### margin负值的问题
 ::: warning 注意
