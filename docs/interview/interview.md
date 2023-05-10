@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 ---
-# 前端面试之道
+# 前端面试集合
 
 ## HTML面试题
 
@@ -172,6 +172,63 @@ IE盒模型宽度和高度要想和标准盒模型一样，可以通过`box-sizi
 ```
 
 ### BFC理解和应用
+:::tip 解释
+* `Block format context` 块级格式化上下文
+* 一块独立渲染区域，内部元素的渲染不会影响边界以外的元素
+:::
+
+**形成BFC的条件**
+1. `float`不是`none`
+2. `position`是`absolute`或`fixed`
+3. `overflow`不是`visible`
+4. `display`是`flex`或`inline-block`等
+5. `html`根元素
+
+**BFC主要的作用**
+1. 清除浮动
+2. 防止同一`BFC`容器中的相邻元素间的外边距重叠问题
+
+
+**BFC 特性**
+1. 内部`box`会在垂直方向，一个接一个地放置
+
+2. `box`垂直方向的距离由`margin`决定，在一个`BFC`中，两个相邻的块级盒子的垂直外边距会产生折叠。(完整的说法是：属于同一个`BFC`的两个相邻`box`的`margin`会发生重叠(塌陷)，与方向无关)
+
+3. 在`BFC`中，每一个盒子的左外边缘(`margin-left`)会触碰到容器的左边缘(`border-left`)(对于从右到左的格式来说，则触碰到右边缘)，即使浮动元素也是如此。(这说明`BFC`中子元素不会超出他的包含块，而`position`为`absolute`的元素可以超出他的包含块边界)
+
+4. 形成了`BFC`的区域不会与`float box`重叠
+
+5. 计算`BFC`高度时，浮动元素也参与计算
+
+6. `BFC`就是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面元素，反之亦然
+
+**代码演示**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  img {
+      float:left
+  }
+  /* 我们可以通过注释overflow:hidden查看不同效果 */
+  .bfc {
+      overflow:hidden;  /* 触发元素BFC */
+  }
+</style>
+<body>
+  <div class="box bfc">
+    <img src='../images/interview/1.png'>
+    <p class="bfc">我是超长的文字<p>
+  </div>
+</body>
+</html>
+```
 
 ### float布局和clearfix
 
