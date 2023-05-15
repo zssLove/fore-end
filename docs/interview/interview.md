@@ -257,7 +257,7 @@ IE盒模型宽度和高度要想和标准盒模型一样，可以通过`box-sizi
 值类型是存储在栈中的，栈是从上往下的
 :::
 
-常见的值类型有`number`、`string`、`Boolean`、`undefined`、`symbol`
+常见的值类型有`number`、`string`、`Boolean`、`undefined`、`Symbol`
 **代码分析**
 ```js
 // 值类型
@@ -278,8 +278,9 @@ console.log(y); // 66
 引用类型是存储在堆中的，堆是从下往上的
 :::
 
-常见的引用类型有`Object`、`array`、`function`、`null`，其中`null`是特殊引用类型，指针指向为空地址。`function`函数不用于存储数据，一般不说复制函数和拷贝函数
-引用类型有可能会很多，在复制过程中导致很慢，所以放在内存地址中
+常见的引用类型有`Object`、`array`、`function`、`null`，其中`null`是特殊引用类型，指针指向为空地址。`function`函数不用于存储数据，一般不说复制函数和拷贝函数。
+
+引用类型有可能是一个很大的`json`，第一会导致存储地址太大，第二个在复制值过程中导致很慢，所以放在内存地址中
 
 **代码分析**
 ```js
@@ -291,3 +292,29 @@ console.log(x.age); // 30
 ```
 
 ![引用类型](../images/interview/4.png)
+
+
+### typeof 运算符
+
+:::tip 用处
+* 识别所有值类型
+* 识别函数
+* 判断是否是引用类型(但不能进行细分)
+:::
+
+**代码分析**
+```js
+let x; console.log(typeof x);                 // 'undefined'
+const str = 'zss'; console.log(typeof str);   // 'string'
+const n = 88; console.log(typeof n);          // 'number'
+const y = true; console.log(typeof y);        // 'boolean'
+const s = Symbol('s'); console.log(typeof s); // 'symbol'
+console.log(typeof console.log);              // 'function'
+console.log(typeof function () {});           // 'function'
+
+// 能识别引用类型(但不能进行细分)
+console.log(typeof null);       // 'object'
+console.log(typeof ['x', 'y']); // 'object'
+console.log(typeof { x: 66 });  // 'object'
+
+```
