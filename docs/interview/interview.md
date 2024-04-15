@@ -53,7 +53,7 @@ IE盒模型宽度和高度要想和标准盒模型一样，可以通过`box-sizi
 ### margin纵向重叠的问题
 
 :::tip 解答
-* 相邻元素的`margin-tip`和`margin-bottom`会发生重叠
+* 相邻元素的`margin-top`和`margin-bottom`会发生重叠
 * 中间空白内容的`<p></p>`也会重叠
 * 所以下面代码的结果就是`30px`
 :::
@@ -316,5 +316,27 @@ console.log(typeof function () {});           // 'function'
 console.log(typeof null);       // 'object'
 console.log(typeof ['x', 'y']); // 'object'
 console.log(typeof { x: 66 });  // 'object'
-
 ```
+
+### 深拷贝111
+
+
+
+## ES6
+
+### var和let和const
+
+:::tip let和var区别
+* `var`声明的变量会挂载到window上，`let`不会
+* `var`可以重复声明，`let`不能重复声明
+* `var`没有块级作用域，`let`有块级作用域
+* `var`可以进行变量提升，`let`不能变量提升
+* `var`没有暂时性死区，`let`有暂时性死区
+:::
+
+`const`具备上面`let`的所有特性
+:::tip let和const区别
+* `const`不能重新赋值，`let`可以重新赋值
+* `const`声明时必须初始化默认值，`let`可以没有默认值
+* `const`一般声明的变量大写
+:::
