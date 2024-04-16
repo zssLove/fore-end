@@ -1,6 +1,6 @@
 module.exports = [
   { text: '前端面试集合', link: '../../interview/interview' },
-  { text: 'Typescript', link: '../../typescript/typescript.md' },
+  { text: 'Typescript', link: '../../typescript/typescript' },
   {
     text: 'Vue源码分析',
     items: [
